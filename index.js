@@ -8,7 +8,7 @@ const postRouter=require("./routers/postRouter");
 const userRouter=require("./routers/userRouter");
 
 
-dotenv.config({path:'./config.env'})
+dotenv.config({path:'./.env'})
 const app=express();
 const morgan=require("morgan");
 const cookieParser=require("cookie-parser");
