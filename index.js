@@ -51,7 +51,7 @@ app.get("/",(req,res)=>{
 dbConnect();
 
 
-const PORT="https://snap-media.vercel.app/"
+
 app.listen(PORT,(req,res)=>{
     console.log("listening on",PORT);
 })
